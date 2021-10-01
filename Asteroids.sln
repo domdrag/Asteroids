@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asteroids", "Asteroids\Asteroids.vcxproj", "{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Debug|x64.ActiveCfg = Debug|x64
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Debug|x64.Build.0 = Debug|x64
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Debug|x86.Build.0 = Debug|Win32
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Release|x64.ActiveCfg = Release|x64
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Release|x64.Build.0 = Release|x64
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Release|x86.ActiveCfg = Release|Win32
+		{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39D894D0-34A3-4FD5-8973-E68BE2169133}
+	EndGlobalSection
+EndGlobal
