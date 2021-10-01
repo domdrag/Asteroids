@@ -1,5 +1,9 @@
 # Asteroids
 
+Pokretanje igre - dvostruki klik na Asteroids.lnk
+
+========================================================
+
 Igra započinje pozdravnim ekranom. 
 
 Nakon što se pritisne bilo koja tipka počinje igra.
