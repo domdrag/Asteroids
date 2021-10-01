@@ -7,7 +7,7 @@ GameState::GameState(Game* pGame) : mpGame(pGame) {
 }
 
 WelcomeState::WelcomeState(Game* pGame) : GameState(pGame) {
-	if (!mFont.loadFromFile("design/Halo3.ttf"))
+	if (!mFont.loadFromFile("data/Halo3.ttf"))
 	{
 		throw std::runtime_error("ERROR");
 	}
@@ -41,7 +41,7 @@ void WelcomeState::render(){
 }
 
 ScoreState::ScoreState(Game* pGame) : GameState(pGame) {
-	if (!mFont.loadFromFile("design/Halo3.ttf"))
+	if (!mFont.loadFromFile("data/Halo3.ttf"))
 	{
 		throw std::runtime_error("ERROR");
 	}

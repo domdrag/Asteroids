@@ -5,50 +5,46 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="entities.cpp">
+    <ClCompile Include="src\entities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp">
+    <ClCompile Include="src\game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gamestate.cpp">
+    <ClCompile Include="src\gamestate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playstate.cpp">
+    <ClCompile Include="src\playstate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="textureHolder.cpp">
+    <ClCompile Include="src\textureHolder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="entities.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="headers\entities.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="headers\game.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="gamestate.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="headers\gamestate.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="playstate.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="headers\playstate.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="textureHolder.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="headers\textureHolder.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

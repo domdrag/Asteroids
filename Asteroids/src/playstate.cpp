@@ -16,7 +16,7 @@ int PlayState::mShoot = SHOOT_BEGIN;
 PlayState::PlayState(Game* pGame) : GameState(pGame), mWindow(pGame->getWindow()) {
     mDtFixed = sf::seconds(1.0f / 60.0f);
     mBackgroundSprite.setTexture(mTextureHolder.getTexture(Textures::background));
-    if (!mFont.loadFromFile("design/Halo3.ttf"))
+    if (!mFont.loadFromFile("data/Halo3.ttf"))
     {
         throw std::runtime_error("ERROR");
     }

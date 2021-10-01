@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\entities.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\gamestate.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\playstate.cpp" />
+    <ClCompile Include="src\textureHolder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\entities.h" />
+    <ClInclude Include="headers\game.h" />
+    <ClInclude Include="headers\gamestate.h" />
+    <ClInclude Include="headers\playstate.h" />
+    <ClInclude Include="headers\textureHolder.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{FDA4FAF9-D77D-4D03-8B6C-8C45DD94D291}</ProjectGuid>
@@ -160,21 +175,6 @@
       <AdditionalDependencies>sfml-window-s.lib;sfml-graphics-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib;sfml-main.lib;opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;user32.lib;shell32.lib;vcruntime.lib;msvcrt.lib;advapi32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="entities.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="gamestate.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="playstate.cpp" />
-    <ClCompile Include="textureHolder.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="entities.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="gamestate.h" />
-    <ClInclude Include="playstate.h" />
-    <ClInclude Include="textureHolder.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
