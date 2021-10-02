@@ -1,6 +1,6 @@
 # Asteroids
 
-## Pokretanje igre - dvostruki klik na Asteroids.lnk
+## Pokretanje igre - Asteroids.lnk
 
 Igra započinje pozdravnim ekranom. 
 
