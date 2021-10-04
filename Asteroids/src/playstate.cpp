@@ -59,7 +59,7 @@ void PlayState::init(){
     mAsteroids = 0;
     PlayState::mShoot = 1;
 
-    if (!mFont.loadFromFile("Halo3.ttf"))
+    if (!mFont.loadFromFile("data/Halo3.ttf"))
     {
         std::cout << "CODE 440" << std::endl;
     }
