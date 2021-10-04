@@ -1,1 +1,1 @@
-1.) potreban instalacija SFML
+1.) potreban instalacija SFML i Windows SDK
