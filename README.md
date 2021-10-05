@@ -1,7 +1,5 @@
 # Asteroids
 
-## Pokretanje igre - Asteroids.lnk
-
 Igra započinje pozdravnim ekranom. 
 
 Nakon što se pritisne bilo koja tipka počinje igra.
@@ -25,4 +23,4 @@ SPACEom igrač "puca" i razara asteroide.
 
 Igrač ima 3 života. Živote gubi sudarajući se s asteroidima.
 
- 
+## Pokretanje igre - x64/Release/Asteroids.exe
