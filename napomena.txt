@@ -1,1 +1,0 @@
-1.) potreban instalacija SFML i Windows SDK
